@@ -4,7 +4,7 @@ import Foundation
 import UIKit
 
 
-@IBDesignable class CustomButton: UIButton {
+@IBDesignable class RoundedButton: UIButton {
 
     // MARK: - Properties
 
@@ -15,17 +15,7 @@ import UIKit
         }
     }
 
-    @IBInspectable var borderWidth: CGFloat = 0 {
-        didSet {
-            layer.borderWidth = borderWidth
-        }
-    }
 
-    @IBInspectable var borderColor: UIColor = .clear {
-        didSet {
-            layer.borderColor = borderColor.cgColor
-        }
-    }
 
     // MARK: - Initialization
 

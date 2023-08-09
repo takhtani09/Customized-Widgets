@@ -4,7 +4,7 @@ import Foundation
 import UIKit
 
 @IBDesignable
-class DesignableTextField: UITextField {
+class UderlinedTextField: UITextField {
     
     @IBInspectable var bottomLineColor: UIColor = UIColor.black {
         didSet {
